@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Note:1.please change the firebase API key...
+
 ## Available Scripts
 
 In the project directory, you can run:
