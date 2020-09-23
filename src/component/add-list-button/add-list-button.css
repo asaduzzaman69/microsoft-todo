@@ -1,0 +1,23 @@
+.btn-container {
+    background: white;
+    height: 35px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #E7E8EA;
+    font-size: 14px;
+    }
+  
+  .add-btn:link,
+  .add-btn:visited {
+    color: #A7A7A8; }
+  
+  span.group {
+    float: right;
+    color: #A7A7A8;
+    cursor: pointer;
+    }
+  
+    a.add-btn i {
+      padding: 10px;
+  }

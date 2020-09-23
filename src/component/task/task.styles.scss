@@ -1,0 +1,19 @@
+.tasks {
+    list-style: none;
+    width: 95%;
+    margin: 0 auto;
+
+    li {
+        color: black;
+        background-color: white;
+        padding: 11px;
+        margin: 10px 0;
+        border-radius: 3px;
+        span  {
+            margin-right: 10px;
+            display: inline-block;
+        };
+        
+
+    }
+}

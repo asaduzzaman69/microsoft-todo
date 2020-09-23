@@ -1,0 +1,97 @@
+
+  .task-container {
+    width: 82%;
+    height: 100vh;
+    float: right;
+    position: relative;
+  }
+  .task-header::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+  .task-header {
+    color: white;
+    word-spacing: 6px;
+  }
+  .date {
+    display: block;
+  }
+  
+  .task-text {
+    margin: 20px 26px;
+    float: left;
+  }
+  
+  .btn-task {
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+    position: relative;
+  }
+  a.btn-light {padding: 6px 9px;}
+  
+  a.btn-light {
+    color: white;
+    background: #287856bd;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0px 5px;
+}
+  a.btn-dot {padding: 7px 13px;}
+  
+  a.btn-dot {
+      color: white;
+      background: #287856bd;
+      border: none;
+      border-radius: 5px;
+      font-size: 13px;
+  }
+  a.btn-dot i {
+    transform: rotate(90deg);
+  }
+  span.task-icon i {
+    padding-right: 10px;
+    color: white;
+    font-weight: 400;
+  }
+  .task-input-container {
+    width: 1450px;
+    background: #00000026;
+    border: none;
+    position: absolute;
+    bottom: 50px;
+    left: 40px;  }
+  .task-input {
+    width: 1400px;
+    height: 55px;
+  }
+  span.task-icon {
+    height: 32px;
+    display: inline-block;
+    border: none;
+    outline: none;
+  }
+  .task-input {
+    width: 97%;
+    height: 55px;
+    background: transparent;
+    border: transparent;
+  }
+
+  span.task-icons i {
+    color: white;
+    font-size: 13px;
+    padding: 13px;
+    cursor: pointer;
+  }
+  .task-input:focus{
+    outline: none;
+  }
+  .task-content {
+    overflow-y: scroll;
+    height: 74%;
+}
+
+  

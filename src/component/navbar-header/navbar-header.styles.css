@@ -1,0 +1,25 @@
+.navbar-header {
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+h1.header-tittle {
+    color: #808080;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+h1.gmail {
+    font-size: 16px;
+}
+
+.nav-header-info {
+    width: 66%;
+    float: right;
+}
+
+
+.nav-header-info h1 {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
