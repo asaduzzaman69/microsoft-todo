@@ -39,6 +39,7 @@ class  App extends React.Component {
     const { currentUser } = this.props
     return (
     <Switch>
+       <Redirect exact from="/" to="homepage" />
       <PrivateRoute  path='/homepage' component={HomePage} />
       <Route exact path='/login' render={() => currentUser ? (<Redirect to='/homepage' />) : <LoginPage />}  />
       <Route exact path='/signup' render={() => currentUser ? (<Redirect to='/homepage' />) : <SignUp />}   />
